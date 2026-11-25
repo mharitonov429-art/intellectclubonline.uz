@@ -1,6 +1,6 @@
 # Intellekt-klub onlayn Super Jump (intellectclubonline.uz)
 
-> Oʻzbek tilidagi sayt: Super Jump metodikasi boʻyicha onlayn kurs va Intellekt-klub, GO SMILE. Muallif — Matvey Xaritonov, Super Jump ishtirokchisi. Rasmiy Super Jump sayti emas.
+> Oʻzbek va rus tillaridagi sayt (rus versiyasi: https://intellectclubonline.uz/ru/): Super Jump metodikasi boʻyicha onlayn kurs va Intellekt-klub, GO SMILE. Muallif — Matvey Xaritonov, Super Jump ishtirokchisi. Rasmiy Super Jump sayti emas.
 
 Materiallar axborot xarakteriga ega, tibbiy maslahat emas; natija kafolatlanmaydi, daromad vaʼda qilinmaydi. Kurs va GO SMILE havolalari hamkorlik (referal) havolalaridir.
 
@@ -14,5 +14,16 @@ Materiallar axborot xarakteriga ega, tibbiy maslahat emas; natija kafolatlanmayd
 - [GO SMILE — tabassum trekeri](https://intellectclubonline.uz/go-smile/): GO SMILE — Super Jump mahsulotlaridan biri: tabassum trekeri. Qayerdan boshlash mumkin va bepul kulgi-amaliyotga qanday yozilish kerak.
 - [Savol-javob](https://intellectclubonline.uz/savol-javob/): Super Jump kursi, narxi, Intellekt-klub va xavfsizlik haqida koʻp beriladigan savollarga qisqa javoblar.
 - [Aloqa](https://intellectclubonline.uz/aloqa/): Intellekt-klub onlayn Super Jump bilan aloqa: kurs, klub va GO SMILE haqida savollar uchun Telegram orqali yozing.
+
+## Русская версия
+
+- [Главная](https://intellectclubonline.uz/ru/): онлайн-курс Super Jump на 10 дней и Интеллект-клуб.
+- [Super Jump](https://intellectclubonline.uz/ru/super-jump/)
+- [О методике](https://intellectclubonline.uz/ru/super-jump/o-metodike/)
+- [Как проходит курс](https://intellectclubonline.uz/ru/super-jump/kak-prohodit-kurs/)
+- [Интеллект-клуб](https://intellectclubonline.uz/ru/super-jump/intellekt-klub/)
+- [GO SMILE](https://intellectclubonline.uz/ru/go-smile/)
+- [Вопросы и ответы](https://intellectclubonline.uz/ru/voprosy-otvety/)
+- [Контакты](https://intellectclubonline.uz/ru/kontakty/)
 
 Sitemap: https://intellectclubonline.uz/sitemap.xml
