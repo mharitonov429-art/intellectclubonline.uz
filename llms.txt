@@ -23,6 +23,9 @@ Materiallar axborot xarakteriga ega, tibbiy maslahat emas; natija kafolatlanmayd
 - [Как проходит курс](https://intellectclubonline.uz/ru/super-jump/kak-prohodit-kurs/)
 - [Интеллект-клуб](https://intellectclubonline.uz/ru/super-jump/intellekt-klub/)
 - [GO SMILE](https://intellectclubonline.uz/ru/go-smile/)
+- [Как работает GO SMILE](https://intellectclubonline.uz/ru/go-smile/kak-rabotaet/)
+- [GO SMILE на Android](https://intellectclubonline.uz/ru/go-smile/ustanovka-android/)
+- [GO SMILE на iPhone](https://intellectclubonline.uz/ru/go-smile/ustanovka-iphone/)
 - [Вопросы и ответы](https://intellectclubonline.uz/ru/voprosy-otvety/)
 - [Контакты](https://intellectclubonline.uz/ru/kontakty/)
 

@@ -34,4 +34,5 @@ footer .lnk{display:block;margin:6px 0;padding:0;border:0;background:none;color:
 .tw{overflow-x:auto;margin:12px 0}.tw table{border-collapse:collapse;width:100%;font-size:15px;min-width:560px}.tw th,.tw td{border:1px solid #e6e1d8;padding:8px 10px;text-align:left;vertical-align:top}.tw th{background:var(--f)}
 .ph{margin:0 0 20px;max-width:260px}.ph img{display:block;width:100%;height:auto;border-radius:14px}
 .cb p{margin:0;flex:1 1 280px}.cb-a{display:flex;gap:8px}.cb .btn{cursor:pointer;font:inherit;font-weight:700}
-
+.shot{margin:18px 0}.shot img{display:block;width:100%;max-width:420px;height:auto;border-radius:12px;border:1px solid #e6e1d8}.shot figcaption{font-size:14px;color:var(--m);margin-top:6px}
+.note{font-size:14px;color:var(--m)}
