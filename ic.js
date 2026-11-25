@@ -7,6 +7,7 @@
     ymWebvisor: false,                       // zapis sessiy Metriki: vyklyuchena
     ph: 'phc_xSD5qD85PctombCpnxgkJmmaVEZGm6UiFJeuENWLj9zf',
     phHost: 'https://us.i.posthog.com',
+    phLangs: ['uz', 'ru'],                   // na kakikh yazykovykh razdelakh gruzit' PostHog (ubrat' 'ru' - otklyuchit PostHog na /ru/)
     adsRegister: ''                          // 'AW-18593159589/XXXXXXXX' - metka konversii "Perekhod na registratsiyu"
   };
   var KEY = 'ic_consent_v1';
@@ -19,8 +20,8 @@
     },
     ru: {
       label: 'Настройки cookie',
-      text: 'Сайт использует Google, Яндекс Метрику и PostHog для статистики. Они включаются только после вашего согласия.',
-      more: 'Подробнее', ok: 'Принять', no: 'Отклонить'
+      text: 'Мы используем Google, Яндекс Метрику и PostHog (cookie, IP-адрес, действия на сайте) для статистики и измерения рекламы. Без вашего согласия cookie не записываются. Подробнее:',
+      more: 'Политика', consent: 'Согласие', ok: 'Принять', no: 'Отклонить'
     }
   }[lang];
 
@@ -55,7 +56,7 @@
   function enable() {
     if (on) return; on = true;
     gtagSafe('consent', 'update', { ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted', analytics_storage: 'granted' });
-    loadYM(); loadPH();
+    loadYM(); if (CFG.phLangs.indexOf(lang) > -1) loadPH();
   }
 
   function wipe() {
@@ -87,7 +88,8 @@
     var pl = document.querySelector('a[data-privacy]');
     var d = document.createElement('div');
     d.id = 'ic-cb'; d.className = 'cb'; d.setAttribute('role', 'region'); d.setAttribute('aria-label', TXT.label);
-    d.innerHTML = '<p>' + TXT.text + (pl ? ' <a href="' + pl.getAttribute('href') + '">' + TXT.more + '</a>' : '') + '</p>' +
+    var cl = document.querySelector('a[data-consent]');
+    d.innerHTML = '<p>' + TXT.text + (pl ? ' <a href="' + pl.getAttribute('href') + '">' + TXT.more + '</a>' : '') + (pl && cl ? ' · <a href="' + cl.getAttribute('href') + '">' + TXT.consent + '</a>' : '') + '</p>' +
       '<div class="cb-a"><button type="button" class="btn sm" data-c="granted">' + TXT.ok + '</button>' +
       '<button type="button" class="btn sm" data-c="denied">' + TXT.no + '</button></div>';
     document.body.appendChild(d);
